@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(199, 212, 221);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-image {
+  max-width: 40%;
+}
+
+.comingsoon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 1rem;
+  margin: 1rem;
+}
+#day,
+#hour,
+#minute,
+#second {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
